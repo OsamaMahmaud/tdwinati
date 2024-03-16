@@ -1,0 +1,123 @@
+*
+{
+    border: 0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    direction: rtl;
+}
+
+ul
+{
+    list-style: none;
+
+}
+
+:root
+{
+    --first-color:#5b4838;
+    --second-color:#aaa69d;
+}
+
+a,a:hover
+{
+    text-decoration: none;
+}
+
+body
+{
+    background-color:#f3f3f3;
+}
+
+.col-md-2
+{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+div .categories
+{
+    background: var(--first-color);
+    border-bottom: 1px solid #eaeaea;
+    padding: 20px 0;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+div .categories h4
+{
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--second-color);
+    color:#fff
+}
+
+div .categories ul
+{
+    /* background: red; */
+    
+    margin: 0;
+    padding: 0;
+}
+div .categories ul li
+{
+    background: var(--second-color);
+    margin-bottom: 3px;
+    padding: 5px 0;
+    border-radius: 2px; 
+}
+div .categories ul li a
+{
+    color: #fff;
+}
+
+/* col-md-10 */
+
+.add-category
+{
+    margin-top: 30px;
+}
+
+.btn-custom
+{
+   background: var(--first-color);
+   color:#fff;
+   border:1px solid var(--first-color);
+   width: 100px;
+   padding: 5px 10px;
+}
+
+#main-area
+{
+    margin-top: 10px;
+}
+
+.dissplay-cat tr:first-child
+{
+    background: var(--first-color);
+    color: #fff;
+    text-align: right!important;
+}
+/* footer */
+
+footer
+{
+    background: #fff;
+    text-align: center;
+    padding: 10px 0;
+    border-top:1px solide #eaeaea;
+    
+}
+
+.col-md-10 div.post-detailes button.btn-custom
+{
+    background: transparent;
+    color: var(--first-color);
+    width: 13%;
+    border: 1px solid var(--first-color);
+    border-radius: 0;
+} 
+
+
+/* end footer */
+
